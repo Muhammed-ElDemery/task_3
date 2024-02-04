@@ -30,8 +30,8 @@
 
 
 ### test@linux-test:~/task_3$ gcc myecho.c -o exe_echo
-### test@linux-test:~/task_3$ ./exe_echo "eng reda maher is the best in its field"
-### eng reda maher is the best in its field
+### test@linux-test:~/task_3$ ./exe_echo "eng reda maher is the best in his field"
+### eng reda maher is the best in his field
 ### test@linux-test:~/task_3$ ./exe_echo "I only tell the truth"
 ### I only tell the truth
 ### test@linux-test:~/task_3$ 
