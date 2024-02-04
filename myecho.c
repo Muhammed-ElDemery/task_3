@@ -10,13 +10,12 @@ int main(int argc, char *argv[])
 	printf("usage: %s 'string you want to print\n'", argv[0]);
 	return -1;
     }
-    int num_read, num_write;
+    int num_write;
     num_write = write(1, argv[1], strlen(argv[1]));
-    if (num_read > 0) {
+    if (num_write != 0) {
 	printf("could not print the output \n");
 	return -1;
     }
-
     printf("\n");
     return 0;
 }
